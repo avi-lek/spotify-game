@@ -5,15 +5,9 @@ run on python 3.12.1
 ``
 pip install requirments.txt  return
 ``
-or <br>
+or
 ``
-pip install python-dotenv  return
-pip install requests <br>
-pip install streamlit <br>
-pip install networkx <br>
-pip install streamlit-searchbox <br>
-pip install matplotlib <br>
-pip3 install streamlit_js_eval
+pip install python-dotenv requests streamlit networkx streamlit-searchbox matplotlib streamlit_js_eval
 ``
 
 ### Run Website Locally:
