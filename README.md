@@ -12,5 +12,4 @@ pip install streamlit
 pip install networkx
 pip install streamlit-searchbox
 pip install matplotlib
-pip install time
 pip3 install streamlit_js_eval
