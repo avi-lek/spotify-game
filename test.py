@@ -4,6 +4,13 @@ import streamlit as st
 import networkx as nx
 import matplotlib.pyplot as plt
 
-token=get_token()
-print(get_names(search_for_track(token, "only")))
-print(get_track_names(search_for_track(token, "only")))
+st.session_state["graph"] = nx.Graph()
+
+st.session_state["graph"].add_node("n1")
+st.session_state["graph"].add_node("n2")
+st.session_state["graph"].add_node("n3")
+st.session_state["graph"].add_edge('n1', 'n2', label='track1')
+st.session_state["graph"].add_edge('n3', 'n2', label='track2')
+
+
+
