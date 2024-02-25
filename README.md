@@ -3,11 +3,11 @@
 run on python 3.12.1
 ### Install Packages
 ``
-pip install requirments.txt <br>
+pip install requirments.txt  return
 ``
 or <br>
 ``
-pip install python-dotenv <br>
+pip install python-dotenv  return
 pip install requests <br>
 pip install streamlit <br>
 pip install networkx <br>
