@@ -3,7 +3,7 @@ import os
 import base64
 from requests import post, get
 import json
-
+import streamlit as st
 load_dotenv()
 client_id=st.secrets["CLIENT_ID"]#os.getenv("CLIENT_ID")
 client_secret=st.secrets["CLIENT_SECRET"]#os.getenv("CLIENT_SECRET")
