@@ -5,8 +5,8 @@ from requests import post, get
 import json
 
 load_dotenv()
-client_id=os.getenv("CLIENT_ID")
-client_secret=os.getenv("CLIENT_SECRET")
+client_id=st.secrets["CLIENT_ID"]#os.getenv("CLIENT_ID")
+client_secret=st.secrets["CLIENT_SECRET"]#os.getenv("CLIENT_SECRET")
 
 def get_token():
     auth_string = client_id+":"+client_secret
